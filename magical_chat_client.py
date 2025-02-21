@@ -43,7 +43,7 @@ class MagicalChatClient:
                 message = self.client_socket.recv(1024).decode('utf-8')
                 if not message:
                     break
-                print(f"\n{message}{Style.RESET_ALL}\n{Fore.YELLOW}🌠 Username: ", end="")
+                print(f"\n{message}{Style.RESET_ALL}\n{Fore.YELLOW}🌠 Enter name: ", end="")
             except Exception as e:
                 print(f"{Fore.RED}💥 Error receiving messages: {e}")
                 self.running = False

@@ -8,6 +8,11 @@ import random
 
 init(autoreset=True)  # Initialize colorama
 
+# TODO: Refactor get username, give its own thread?
+# TODO: Fix user disconnect, nothing happens now
+# TODO: Refactor tone of UI, something other than magic forest
+
+
 # Playful ASCII art options
 WELCOME_ART = [
     r"""
